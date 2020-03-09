@@ -6,19 +6,15 @@
     "clean": "rimraf .cache public built-lambda",
     "build": "run-p build:**",
     "build:app": "npm run clean && gatsby build",
-    "build:functions": "netlify-lambda build ./functions",
     "develop": "npm run clean && gatsby develop",
     "start": "run-p start:**",
     "start:app": "npm run develop",
-    "start:functions": "netlify-lambda serve ./functions",
-    "serve": "gatsby serve",
-    "test": "jest"
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "@babel/core": "^7.8.4",
     "@mdx-js/mdx": "^1.5.5",
     "@mdx-js/react": "^1.5.5",
-    "babel-jest": "^25.1.0",
     "babel-preset-gatsby": "^0.2.29",
     "bootstrap": "^4.4.1",
     "bufferutil": "^4.0.1",
@@ -32,7 +28,6 @@
     "gatsby-plugin-offline": "^3.0.35",
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-sass": "^2.1.29",
-    "jest": "^25.1.0",
     "jquery": "^3.4.1",
     "netlify-lambda": "^1.4.13",
     "node-fetch": "^2.6.0",
