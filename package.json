@@ -33,7 +33,7 @@
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-sass": "^2.1.29",
     "jest": "^25.1.0",
-    "jquery": "^1.9.1",
+    "jquery": "^3.4.1",
     "netlify-lambda": "^1.4.13",
     "node-fetch": "^2.6.0",
     "node-sass": "^4.13.1",
