@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import { Card } from 'react-bootstrap'
 import { Twitter, GitHub } from 'react-feather';
 import Layout from '../components/layout'
+import Map from '../components/map'
 import '../styles/index.scss'
 
 export default () => {
@@ -83,18 +84,20 @@ export default () => {
         </div>
         <h4 className="spakersCTA" style={{ textAlign: 'center' }}>BE ONE OF OUR SPEAKERS</h4>
       </div>
-      <div className="venue/map col-lg-12">
+      {/* <div className="venue/map col-lg-12">
         <h2 style={{ textAlign: 'center' }}>Venue</h2>
         <div className="row" style={{ textAlign: 'center' }}>
           <div className="col-lg-6 col">
             <h4>Address:</h4>
             <p>1600 Amphitheatre Parkway</p> 
             <p>Mountain View, CA 94043</p>
-          </div>
-          <img className="col-lg-6" src="https://via.placeholder.com/700x500.jpeg/55595c/ffffff/?text=Google Maps" />
-        </div>
+          </div> */}
+          {/* <img className="col-lg-6" src="https://via.placeholder.com/700x500.jpeg/55595c/ffffff/?text=Google Maps" /> */}
+          {/* <iframe title="venue_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12885.977554957912!2d-86.7731944!3d36.1545223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x15072ff420bee651!2sRocketown!5e0!3m2!1sen!2sus!4v1583542114036!5m2!1sen!2sus" width="400" height="300" frameborder="0" style={{border:0}} allowfullscreen=""></iframe> */}
+          <Map></Map>
+        {/* </div> */}
 
-      </div>
+      {/* </div> */}
       <div className="become_a_sponsor_or_volunter col-lg-12" style={{ textAlign: 'center' }}>
         <h3>We Need You</h3>
         <a className="btn btn-primary" href="#" >  Become a Sponsor or Volunter</a>
