@@ -2,27 +2,14 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Card } from 'react-bootstrap'
 import { Twitter, GitHub } from 'react-feather';
+import Banner from '../components/banner';
 import Layout from '../components/layout'
 import '../styles/index.scss'
 
 export default () => {
   return (
     <Layout>
-      <div className="banner col-lg-12">
-          <div className="spacer">
-          </div>
-          <h1 className="title">
-              JavaScript conference hosted in Nashville.
-          </h1>
-          <div className="cta">
-              <a className="btn btn-primary" href="https://sessionize.com/ugjs-2020" component={Link} to="https://sessionize.com/ugjs-2020">
-                  Call for Speakers
-              </a>
-              <a className="btn btn-primary" href="https://www.eventbrite.com/e/undergroundjs-2020-tickets-93439517111?aff=website" component={Link} to="https://www.eventbrite.com/e/undergroundjs-2020-tickets-93439517111?aff=website">
-                  Buy Tickets
-              </a>
-          </div>
-      </div>
+      <Banner />
       <div className="speakers col-lg-12">
         <h2 style={{ textAlign: 'center' }}>Speakers</h2> 
         <div className="row">
