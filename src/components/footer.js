@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
             </div>
             <p class="copyright">
-                © 2020 UndergroundJS, Inc.
+                &copy; {new Date().getFullYear()} UndergroundJS, Inc.
             </p>
         </footer>
     )
